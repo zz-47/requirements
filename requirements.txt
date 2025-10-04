@@ -1,0 +1,38 @@
+# AI and ML Libraries (TensorFlow, PyTorch, Scikit-Learn, etc.)
+tensorflow==2.11.0        # Deep learning framework
+torch==2.0.0               # PyTorch for ML models
+keras==2.11.0              # High-level API for TensorFlow
+scikit-learn==1.0.2        # Machine learning algorithms
+scipy==1.8.0               # Scientific computations (needed for ML algorithms)
+pandas==1.4.2              # Data handling and manipulation
+numpy==1.21.2              # Numerical operations
+matplotlib==3.4.3          # Plotting and visualizations
+seaborn==0.11.2            # Statistical data visualization
+plotly==5.5.0              # Interactive plots (used for dashboards)
+
+# Image Processing Libraries
+opencv-python==4.5.5.64    # Computer vision library
+Pillow==8.4.0              # Image processing (Python Imaging Library)
+torchvision==0.11.1        # PyTorch package for computer vision
+
+# Web Frameworks (Flask, Django, Streamlit, etc.)
+Flask==2.0.3               # Web framework for building APIs
+Django==4.0.0              # High-level Python web framework
+streamlit==1.9.0           # Framework for building web apps (AI, ML apps)
+
+# Web Scraping and API Utilities
+requests==2.26.0           # HTTP library for making requests
+beautifulsoup4==4.10.0      # Web scraping library
+lxml==4.7.1                # XML/HTML parsing library (often used with BeautifulSoup)
+scrapy==2.5.0              # Framework for web scraping (if needed)
+
+# Data Handling and Database (if applicable)
+SQLAlchemy==1.4.25         # Database ORM
+psycopg2==2.9.1            # PostgreSQL adapter for Python (for database interaction)
+pymysql==1.0.2             # MySQL adapter for Python
+
+# Miscellaneous Utilities
+pytz==2021.3               # Time zone library
+gunicorn==20.1.0           # WSGI HTTP Server for deploying Python web apps
+pytest==6.2.5              # Testing framework (if you plan to test the projects)
+pyyaml==5.4.1              # YAML parser for configuration files
